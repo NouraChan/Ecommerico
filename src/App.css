@@ -1,12 +1,24 @@
+
+@font-face {
+  font-family: Taviraj;
+  src: url(../src/Taviraj/Taviraj-Regular.ttf);
+}
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Taviraj", sans-serif;
   font-style: normal;
   list-style: none;
 
 }
 
+.coltheme1{
+  background-color: #D84727;
+}
+
+
 .App {
   padding: 0 !important;
+  background-color: #f7f6f4;
 }
 /* 
 section{
