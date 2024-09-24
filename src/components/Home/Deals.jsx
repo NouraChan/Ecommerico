@@ -15,7 +15,7 @@ export default function Deals() {
 
     return <>
         <section className="my-5">
-            <h2>Latest Deals</h2>
+            <h2 className="my-4">Latest Deals</h2>
             <div className="row justify-content-evenly">
             <div className="col-lg-2 bg-white">
                     <a href="../Product/Details"><img src="" alt="1" srcset="" /></a>

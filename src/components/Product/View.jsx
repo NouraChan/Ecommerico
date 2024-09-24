@@ -5,7 +5,7 @@ export default function View() {
     let [] = useState();
 
     return <>
-        <div className="row product-view my-4">
+        <div className="row product-view my-4 justify-content-center">
             <div className="col-lg-2"><a href="#" className="d-block"><img src="" alt="1" srcset="" /></a><a href="#" className="d-block"><img src="" alt="2" srcset="" /></a> </div>
             <div className="col-lg-4">
                 <img src="" alt="" srcset="" />

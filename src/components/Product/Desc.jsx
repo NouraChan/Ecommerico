@@ -24,7 +24,7 @@ export default function Desc() {
      }
     return <>
         <section>
-            <div className="container-fluid pt-5 bg-light spacer">
+            <div className="container-fluid pt-5 bg-light spacer my-5">
                 <div className="">
                     <div className="mb-5 d-flex gap-3">
                         <button href="#" className="tabnonselected tabselected" id="day1Btn" onClick={navTabs}>
@@ -38,7 +38,7 @@ export default function Desc() {
                         </button>
                     </div>
                 </div>
-                <div classame="row justify-content-center">
+                <div classame="row justify-content-center my-5 pb-5">
 
                     <div classame="shown-tab col-9 my-4 my-tab">
                         <h4>Title</h4>

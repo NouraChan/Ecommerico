@@ -16,7 +16,7 @@ export default function App() {//header & footer & content
 
   return <><div className="App container-fluid">
     <section>
-      <nav className="navbar navbar-expand-sm justify-content-center mb-2 navbar-dark bg-danger">
+      <nav className="navbar navbar-expand-sm justify-content-center mb-2 navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand text-start" href="home"> <img src='img/923d23ccee9da5bc510b8d159f185505.png'/>
           </a> <button className="navbar-toggler " type="button" data-bs-toggle="collapse"
@@ -58,8 +58,8 @@ export default function App() {//header & footer & content
     </section>
 
 
-{/* <Home/> */}
-<Details/>
+<Home/>
+{/* <Details/> */}
 
 
 
