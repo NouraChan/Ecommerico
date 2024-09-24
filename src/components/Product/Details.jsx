@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Details.css";
 import View from "./View";
 import Desc from "./Desc";
 import Related from "./Related";
