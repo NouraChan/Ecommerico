@@ -1,7 +1,6 @@
 import { useState } from "react";
-import './Home.css';
 
-export default function Home() {
+export default function Deals() {
 
 let [] = useState();
     
