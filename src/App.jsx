@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import './App.css';
 
 
+
 export default function App() {//header & footer & content
 
   createBrowserRouter([{
@@ -13,13 +14,13 @@ export default function App() {//header & footer & content
 
   return <><div className="App container-fluid">
     <section>
-      <nav className="navbar navbar-expand-sm justify-content-center mb-2 navbar-dark bg-warning">
+      <nav className="navbar navbar-expand-sm justify-content-center mb-2 navbar-dark bg-danger">
         <div className="container-fluid">
-          <a className="navbar-brand text-start" href="#">
+          <a className="navbar-brand text-start" href="home"> <img src='img/923d23ccee9da5bc510b8d159f185505.png'/>
           </a> <button className="navbar-toggler " type="button" data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavbar"> <span className="navbar-toggler-icon"></span> </button>
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav me-4">
+            <ul className="navbar-nav me-4 controlsbar">
               <li className="nav-item"> <a
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
                 href="#">Watches</a> </li>
@@ -34,6 +35,20 @@ export default function App() {//header & footer & content
               <li className="nav-item"> <a
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
                 href="#">News</a> </li>
+            </ul>
+            <ul className="navbar-nav me-4 ">
+          
+              <li className="nav-item"> <a
+                className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
+                href="#"><img src="img/search.png" alt="" srcset=""/></a>
+              </li>
+              <li className="nav-item"> <a
+                className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
+                href="#"><img src="img/search.png" alt="" srcset=""/>login </a>
+              </li>
+              <li className="nav-item"> <a
+                className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize cartbtn"
+                href="#"><img src="img/cart.png" alt="" srcset=""/></a> </li>
             </ul>
           </div>
         </div>
@@ -64,7 +79,7 @@ export default function App() {//header & footer & content
               </li>
             </ul>
           </div>
-          <div className="col-md-2 fw-normal lh-lg">
+          <div className="col-md-2 footerlinks fw-normal lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Company Info</h5>
             <ul>
               <li><a href="#">About Us</a></li>
@@ -73,7 +88,7 @@ export default function App() {//header & footer & content
               <li><a href="#">Blog</a></li>
             </ul>
           </div>
-          <div className="col-md-2 lh-lg">
+          <div className="col-md-2 footerlinks lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Legal</h5>
             <ul>
               <li><a href="#">About Us</a></li>
@@ -82,7 +97,7 @@ export default function App() {//header & footer & content
               <li><a href="#">Blog</a></li>
             </ul>
           </div>
-          <div className="col-md-2 fw-normal lh-lg">
+          <div className="col-md-2 footerlinks fw-normal lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Features</h5>
             <ul>
               <li><a href="#">Business Marketing</a></li>
@@ -91,7 +106,7 @@ export default function App() {//header & footer & content
               <li><a href="#">Unlimited Support</a></li>
             </ul>
           </div>
-          <div className="col-md-2 fw-normal lh-lg">
+          <div className="col-md-2 footerlinks fw-normal lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Resources</h5>
             <ul>
               <li><a href="#">IOS & Android</a></li>

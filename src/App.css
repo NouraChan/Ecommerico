@@ -6,7 +6,6 @@
 }
 
 .App {
-  text-align: center;
   padding: 0 !important;
 }
 /* 
@@ -55,17 +54,12 @@ a {
 }
 
 
-/* .raleway {
-  font-family: "Raleway", sans-serif;
-} */
-
-
-
-/* First interface */
-
-
 .navbar-brand {
-  flex-grow: 1;
+  flex-grow: 2;
+}
+
+.controlsbar{
+ flex-grow: 2;
 }
 
 .padset {
@@ -77,6 +71,12 @@ a {
   font-size: 14px;
 }
 
+.cartbtn{
+  background-color: #F1DDC9;
+  border-radius: 50%;
+  width: 35px;
+  
+}
 
 
 /* footer */
@@ -87,36 +87,18 @@ a {
 
 
 .footer {
-  background: #252B42;
+  background: #D84727;
+  ;
   padding-left: 80px;
 }
 
-.note2 {
-  margin-top: 10px;
-}
-
-.credit {
-
-  color: #737373;
-  font-size: 14px;
-  letter-spacing: 0.20000000298023224px;
-  text-align: left;
-  flex-grow: 300 !important;
-
-}
-
-.socmedia {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
 
 .soclink {
   display: inline-block;
   text-decoration: none;
 }
 
-.col-md-2 a {
+.footerlinks a {
   color: white;
   text-decoration: none;
   font-size: 14px;
