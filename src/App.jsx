@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { createBrowserRouter } from 'react-router-dom';
 import './App.css';
+import Details from './components/Product/Details';
+
 
 
 
@@ -56,9 +58,8 @@ export default function App() {//header & footer & content
     </section>
 
 
-
-    <Home />
-
+{/* <Home/> */}
+<Details/>
 
 
 
