@@ -1,14 +1,13 @@
 import { useState } from "react";
-import Details from "../Product/Details";
-import { createBrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function Deals() {
 
     let [] = useState();
-    createBrowserRouter([{
-        path: `details`, element: <Details />, children: [{}]
-      }]);
+    // createBrowserRouter([{
+    //     path: `details`, element: <Details />, children: [{}]
+    //   }]);
     //   createBrowserRouter([{
     //     path: `details/${id}`, element: <Details />, children: [{}]
     //   }]);
@@ -18,7 +17,7 @@ export default function Deals() {
             <h2 className="my-4">Latest Deals</h2>
             <div className="row justify-content-evenly">
             <div className="col-lg-2 bg-white">
-                    <a href="../Product/Details"><img src="" alt="1" srcset="" /></a>
+                    <Link to="product" ><img src="" alt="1" srcset="" /></Link>
                     <h4>Name</h4>
                     <p>offer</p>
                     <h4>$ Price</h4>

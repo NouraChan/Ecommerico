@@ -1,0 +1,38 @@
+
+
+.tabnonselected {
+    text-align: start;
+    box-shadow: none;
+    background: none;
+    border: none;
+    color: #22222267;
+    border-bottom: 5px solid #22222267;
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 300px;
+
+}
+
+.tabselected {
+    transition: 0.25s;
+    text-align: start;
+    box-shadow: none;
+    background: none;
+    border: none;
+    color: #D84727;
+    border-bottom: 5px solid #D84727;
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 300px;
+
+}
+
+
+.contentall {
+    display: none;
+}
+
+.shown-tab {
+    display: block;
+}
+
