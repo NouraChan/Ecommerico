@@ -7,6 +7,8 @@ import Skeleton from './components/Skeleton/Skeleton';
 import Details from './components/Product/Details';
 import Checkout from './components/Order/Checkout';
 import Exception from './components/Exception/Exception';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 let mainRoutes = createBrowserRouter([{
