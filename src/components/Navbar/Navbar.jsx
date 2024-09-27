@@ -41,9 +41,9 @@ let [] = useState();
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
                 href="#"><img src="img/search.png" alt="" srcset=""/>login </a>
               </li>
-              <li className="nav-item"> <a
+              <li className="nav-item"> <Link
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize cartbtn"
-                href="#"><img src="img/cart.png" alt="" srcset=""/></a> </li>
+                to="checkout"><img src="img/cart.png" alt="" srcset=""/></Link> </li>
             </ul>
           </div>
         </div>
