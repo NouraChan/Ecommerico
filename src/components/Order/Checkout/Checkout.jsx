@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Checkout.css";
+import { Link } from "react-router-dom";
 
 
 export default function Checkout() {
@@ -98,7 +99,7 @@ export default function Checkout() {
                     </div>
                     <div className="form-group w-50">
                         <label className="text-capitalize" htmlFor="zip">zipcode</label>
-                        <input type="text" value="" name="zip" placeholder="" className="form-control mb-3 border-0 form-texty " id="zip"></input>
+                        <input type="text" value="" name="zip" placeholder="EX:94024" className="form-control mb-3 border-0 form-texty " id="zip"></input>
                     </div>
                 </div>
 
@@ -114,10 +115,10 @@ export default function Checkout() {
             </div>
         </div> 
 
-        <div className="row justify-content-end">
-            <a href="" className="btn "></a>
-            <button type="submit" className="btn coltheme1"></button>
-        </div>
+        <div className="d-flex justify-content-end mb-4 gap-3">
+            <Link to="../" className="colthemeoutline text-center text-nowrap w-25 p-2">Continue Shopping</Link>
+            <button type="submit" className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0">Place My Order</button>        
+            </div>
         </form>
     </>
 

@@ -51,9 +51,9 @@ export default function Navbar() {
           <button className="navbar-toggler " type="button" data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavbar"> <span className="navbar-toggler-icon"></span> </button>
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav me-4 controlsbar">
+            <ul className="navbar-nav me-4 controlsbar" >
             {categories.slice(startIndex, endIndex).map((category) => 
-              <li className="nav-item"> <a
+              <li className="nav-item" key={category.id}> <a
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
                 href="#">{category.name}</a> </li> )}
                <li className="nav-item"> <a

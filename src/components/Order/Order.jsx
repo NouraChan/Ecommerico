@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Checkout from "./Checkout";
+import Checkout from "./Checkout/Checkout";
 import './Order.css';
 
 export default function Order() {

@@ -14,7 +14,9 @@ import Order from './components/Order/Order';
 let mainRoutes = createBrowserRouter([{
   path: '', element: <Skeleton />, children: [{ index: true, element: <Home /> }
     , { path: "*", element: <Exception /> }
-    , { path: "product", element: <Details /> }
+    , { path: "product/:id", element: <Details /> }
+    // , { path: "product/:id", element: <Details id={product.id} /> }
+
     , { path: "order", element: <Order /> }]
 }]);
 
