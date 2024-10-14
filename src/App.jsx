@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Skeleton from './components/Skeleton/Skeleton';
 import Details from './components/Product/Details';
-import Checkout from './components/Order/Checkout';
 import Exception from './components/Exception/Exception';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Order from './components/Order/Order';
 
 
 
@@ -15,7 +15,7 @@ let mainRoutes = createBrowserRouter([{
   path: '', element: <Skeleton />, children: [{ index: true, element: <Home /> }
     , { path: "*", element: <Exception /> }
     , { path: "product", element: <Details /> }
-    , { path: "checkout", element: <Checkout /> }]
+    , { path: "order", element: <Order /> }]
 }]);
 
 export default function App() {

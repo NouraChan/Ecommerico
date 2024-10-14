@@ -35,9 +35,9 @@ export default function Deals() {
             <h2 className="my-4">Latest products</h2>
             <div className="row justify-content-evenly">
                 {products.slice(startIndex, endIndex).map((product) =>
-                    <div className="col-lg-3 bg-white p-5" key={product.id}>
+                    <div className="col-lg-3 bg-white p-4" key={product.id}>
                         <Link to="product" ><img src={product.images[0]} alt="1" srcset="" width={200} className=" rounded mb-4" /></Link>
-                        <h4>{product.title}</h4>
+                        <h5 className="fs-6">{product.title}</h5>
                         <p>offer</p>
                         <h4>$ {product.price}</h4>
                         <div className="row gap-3 prod-control">
