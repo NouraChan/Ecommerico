@@ -6,8 +6,7 @@ import './App.css';
 import Skeleton from './components/Skeleton/Skeleton';
 import Details from './components/Product/Details';
 import Exception from './components/Exception/Exception';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Order from './components/Order/Order';
+import Checkout from './components/Order/Checkout/Checkout';
 
 
 
@@ -17,7 +16,7 @@ let mainRoutes = createBrowserRouter([{
     , { path: "product/:id", element: <Details /> }
     // , { path: "product/:id", element: <Details id={product.id} /> }
 
-    , { path: "order", element: <Order /> }]
+    , { path: "checkout", element: <Checkout /> }]
 }]);
 
 export default function App() {

@@ -42,12 +42,19 @@ export default function Checkout() {
                             <td>0 EGP</td>
                         </tr>
                     </tbody>
-                    <hr />
-                    <tr><td><h4>Grand Total :</h4></td>
-                        <td>0 EGP</td>
-                    </tr>
-
                 </table>
+                <hr />
+                <table>
+                    <tfoot>
+                        <tr>
+                            <td className="pe-5"><h4>Grand Total :</h4></td>
+                            <td>0 EGP</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+
 
             </div>
             <div className="col-lg-6 p-3 bg-white mb-5">
@@ -71,7 +78,7 @@ export default function Checkout() {
                 <div className="form-group">
                     <label className="text-capitalize" htmlFor="country">Country</label>
                     <select name="country" placeholder="" className="form-control mb-3 border-0 form-texty" id="country">
-                        <option value="" selected>Select</option>
+                        <option value="">Select</option>
                         <option value="egypt">Egypt</option>
                         <option value="saudiarabia">Saudi Arabia</option>
                         <option value="palestine">Palestine</option>
@@ -80,7 +87,7 @@ export default function Checkout() {
                 <div className="form-group">
                     <label className="text-capitalize" htmlFor="state">State/Province</label>
                     <select name="state" placeholder="" className="form-control mb-3 border-0 form-texty" id="state">
-                        <option value="" selected>Select</option>
+                        <option value="">Select</option>
                         <option value="cairo">Cairo</option>
                         <option value="alex">Alexandria</option>
                         <option value="giza">Giza</option>
@@ -91,7 +98,7 @@ export default function Checkout() {
                     <div className="form-group w-50">
                         <label className="text-capitalize" htmlFor="city">city</label>
                         <select name="city" placeholder="" className="form-control mb-3 border-0 form-texty " id="city">
-                            <option value="" selected>Select</option>
+                            <option value="">Select</option>
                             <option value="maadi">Maadi</option>
                             <option value="darelsalam">DarElsalam</option>
                             <option value="mokattam">Mokattam</option>
@@ -99,27 +106,27 @@ export default function Checkout() {
                     </div>
                     <div className="form-group w-50">
                         <label className="text-capitalize" htmlFor="zip">zipcode</label>
-                        <input type="text" value="" name="zip" placeholder="EX:94024" className="form-control mb-3 border-0 form-texty " id="zip"></input>
+                        <input type="text" name="zip" placeholder="EX:94024" className="form-control mb-3 border-0 form-texty " id="zip"></input>
                     </div>
                 </div>
 
                 <div className="form-group">
                     <label className="text-capitalize" htmlFor="courier">select courier</label>
                     <select name="courier" placeholder="" className="form-control mb-3 border-0 form-texty" id="courier">
-                        <option value="" selected>Select</option>
+                        <option value="">Select</option>
                         <option value="fedex">Fedex</option>
                         <option value="amazon">Amazon</option>
                         <option value="alibaba">Alibaba</option>
                     </select>
                 </div>
             </div>
-        </div> 
+        </div>
 
-        <div className="d-flex justify-content-end mb-4 gap-3">
+        <div className="d-flex justify-content-end mx-4 mb-4 gap-3">
             <Link to="../" className="colthemeoutline text-center text-nowrap w-25 p-2">Continue Shopping</Link>
-            <button type="submit" className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0">Place My Order</button>        
-            </div>
-        </form>
+            <button type="submit" className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0">Place My Order</button>
+        </div>
+    </form>
     </>
 
 
