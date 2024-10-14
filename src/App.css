@@ -65,6 +65,9 @@ a {
   text-decoration: none;
 }
 
+.form-texty{
+  border-bottom: 2px gray !important;
+}
 
 /* .prod-control{
   display: none;
