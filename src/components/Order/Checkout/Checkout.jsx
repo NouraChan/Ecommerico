@@ -54,13 +54,13 @@ export default function Checkout() {
                             </tfoot>
                         </table>
                     </div>
-                    {paymentDiv &&
-                     <div className="row gap-4 p-3 bg-white h-25">
-                        <h2 className="mb-4">Payment Details</h2>
-                        <p>Please make a payment according with the limit time specified, starting from now</p>
+                    {/* {paymentDiv &&
+                        <div className="row gap-4 p-3 bg-white h-25">
+                            <h2 className="mb-4">Payment Details</h2>
+                            <p>Please make a payment according with the limit time specified, starting from now</p>
 
-                    </div>}
-                
+                        </div>} */}
+
                 </div>
                 <div className="col-lg-6 p-3 bg-white mb-5">
                     <h2 className="mb-4">Billing Address</h2>
@@ -125,12 +125,17 @@ export default function Checkout() {
                         </select>
                     </div>
                 </div>
-
             </div>
+            {/* {paymentDiv &&
 
+                <div className="row gap-4 p-3 bg-white mb-5" >
+                    <h2 className="mb-4">Payment Method</h2>
+
+                </div>
+            } */}
             <div className="d-flex justify-content-end mx-4 mb-4 gap-3">
                 <Link to="../" className="colthemeoutline text-center text-nowrap w-25 p-2">Continue Shopping</Link>
-                <button type="button" className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0" onClick={proceedOrder} >Place My Order</button>
+                <Link to='payment' className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0" onClick={proceedOrder} >Place My Order</Link>
             </div>
         </form>
     </div>
