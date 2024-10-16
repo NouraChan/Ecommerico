@@ -37,14 +37,7 @@ export default function Series() {
 
                     <a href="#" className="text-dark"><div className="row g-3"><div className="col-4"><img src={product.images[0]} alt="" srcSet="" width={50} /></div><div className="col-7"><h5>{product.title}</h5><h4>{product.price} EGP</h4></div></div></a>)}
                 </div>)}
-                {/* <div className="col-lg-3 col-sm-12 bg-white">
-                    <h3>B Series</h3>
-                    <a href="#" className="text-dark"><div className="row"><div><img src="" alt="" srcSet="" width={50} /></div><h5>Name</h5><h4>Price</h4></div></a>
-                </div>
-                <div className="col-lg-3 col-sm-12 bg-white">
-                    <h3>Featured</h3>
-                    <a href="#" className="text-dark"><div className="row"><div><img src="" alt="" srcSet="" width={50} /></div><h5>Name</h5><h4>Price</h4></div></a>
-                </div> */}
+          
             </div>
         </section>
         </>;

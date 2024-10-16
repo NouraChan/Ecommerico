@@ -16,7 +16,7 @@ export default function Details() {
     let [product, setProduct] = useState();
 
     async function getProductData() {
-        let productdata = await axios.get(`https://api.escuelajs.co/api/v1/products/${id}`);
+        let productdata = await axios.get(`https://api.escuelajs.co/api/v1/products/${params.productId}`);
         setProduct(productdata.data);
 console.log(productdata);
 
@@ -25,10 +25,8 @@ console.log(productdata);
 
     useEffect(() => {
         getProductData();
-    }, [id])
-   
-    // let [productPrice, setProductPrice] = useState(10000);
-    // let [productDesc, setProductDesc] = useState('lorem ipsum');
+    }, [params.productId])
+
 
 
     return <>
