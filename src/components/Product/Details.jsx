@@ -9,7 +9,7 @@ import axios from "axios";
 
 export default function Details() {
 
-    const { id } = useParams();
+    // const { id } = useParams();
 
     const params = useParams();
 
@@ -18,7 +18,7 @@ export default function Details() {
     async function getProductData() {
         let productdata = await axios.get(`https://api.escuelajs.co/api/v1/products/${params.productId}`);
         setProduct(productdata.data);
-console.log(productdata);
+// console.log(productdata);
 
     };
 
