@@ -9,7 +9,7 @@ export default function Deals() {
     let [products, setProducts] = useState([]);
     let [currentPage, setCurrentPage] = useState(1);
     let [productsPerpage] = useState(4);
-    let [totalObjects, setTotal] = useState(0);
+    // let [totalObjects, setTotal] = useState(0);
 
 
     async function getProductsData() {
