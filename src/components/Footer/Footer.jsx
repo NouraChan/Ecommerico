@@ -20,7 +20,7 @@ export default function Footer() {
   return <>
     <section>
       <div className="container-fluid">
-        <div className="row footer2 layout7">
+        <div className="row footer2 layout7 gap-3 justify-content-center">
           <div className="col-2"><img width={100} src={bni} alt="" /></div>
           <div className="col-2"><img width={100} src={permata} alt="" /></div>
           <div className="col-2"><img width={100} src={mscard} alt="" /></div>
