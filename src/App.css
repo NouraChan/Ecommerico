@@ -14,6 +14,10 @@
 .coltheme1{
   background-color: #D84727;
 }
+
+.colthemefaint{
+  background-color: #d8482765;
+}
 .colthemeoutline{
   border: 2px solid #D84727;
   color: #D84727;
