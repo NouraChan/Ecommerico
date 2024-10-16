@@ -10,43 +10,40 @@ let [] = useState();
           <section>
       <div className="container-fluid">
         <div className="row footer layout7">
-          <div className="col-lg-3">
+          <div className="col-lg-4">
           <h5 className="ulhead fw-bold lh-lg"><img src={footerlogo} width={150} alt="" /></h5>
           
           <ul className="contacts">
               <li>
-                <h6 className="fw-normal lh-lg"><img src="images/bx_bx-phone.png" alt="" className="contacticn"></img>(480) 555-0103</h6>
+              <h6 className="fw-semibold lh-lg pe-5">Address</h6></li>
+              <li>
+              <h6 className="fw-normal lh-lg">Store & Office Jl. Setrasari Kulon III, No. 10-12, Sukarasa, Sukasari, Bandung, Jawa Barat, Indonesia 40152</h6>
               </li>
               <li>
-                <h6 className="fw-normal lh-lg"><img src="images/bx_bx-map.png" alt="" className="contacticn"></img>4517 Washington Ave. Manchester, Kentucky 39495</h6>
+                <h6 className="fw-normal lh-lg">Office Hours</h6>
               </li>
               <li>
-                <h6 className="fw-normal lh-lg"><img src="images/carbon_send-alt.png" alt="" className="contacticn"></img>debra.holt@example.com</h6>
+                <h6 className="fw-normal lh-lg">Monday-Sunday</h6>
+                <h6>10.00 - 18.00</h6>
               </li>
             </ul>
           </div>
-          <div className="col-lg-4 footerlinks fw-normal lh-lg">
+          <div className="col-lg-3 footerlinks fw-normal lh-lg">
           <h5 className="ulhead fw-bold lh-lg">Get In Touch</h5>
           <table className="text-white">
             <tr>
-              <td><h6 className="fw-normal lh-lg pe-5">Address</h6></td>
-              <td><h6 className="fw-normal lh-lg">Store & Office Jl. Setrasari Kulon III, No. 10-12, Sukarasa, Sukasari, Bandung, Jawa Barat, Indonesia 40152</h6>
-              </td>
+              <td className=""><h6 className="fw-bold lh-lg pe-5 text-center">Phone</h6></td>
+              <td><h6 className="fw-normal lh-lg">022-20277564</h6></td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+            <td className=""><h6 className="fw-bold lh-lg pe-5 text-center">Service Center</h6></td>
+            <td><h6 className="fw-normal lh-lg">0811-233-8899</h6></td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+            <td className=""><h6 className="fw-bold lh-lg pe-5 text-center">Customer Service</h6></td>
+            <td><h6 className="fw-normal lh-lg">0811-235-9988</h6></td>
             </tr>
           </table>
-            <ul>
-              <li><a href="#">Carrier</a></li>
-              <li><a href="#">We are hiring</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
           </div>
           <div className="col-md-2 footerlinks lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Useful Links</h5>
