@@ -6,7 +6,11 @@
   
   .footer {
     background: #D84727;
-    ;
+    padding-left: 80px;
+  }
+
+  .footer2 {
+    background: #e4502f;
     padding-left: 80px;
   }
   

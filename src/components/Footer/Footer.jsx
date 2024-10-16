@@ -1,6 +1,17 @@
 import { useState } from "react";
 import './Footer.css';
 import footerlogo from '../../img/image 30.png';
+import visa from '../../img/image 29.png';
+import mscard from '../../img/image 27.png';
+import uob from '../../img/image 34.png';
+import permata from '../../img/image 26.png';
+import kerdivo from '../../img/image 33.png';
+import bni from '../../img/image 25.png';
+import mandiri from '../../img/image 32.png';
+import gopay from '../../img/image 35.png';
+import danamon from '../../img/image 28.png';
+import chartered from '../../img/image 36.png';
+
 
 export default function Footer() {
 
@@ -9,6 +20,19 @@ export default function Footer() {
   return <>
     <section>
       <div className="container-fluid">
+        <div className="row footer2 layout7">
+          <div className="col-2"><img width={100} src={bni} alt="" /></div>
+          <div className="col-2"><img width={100} src={permata} alt="" /></div>
+          <div className="col-2"><img width={100} src={mscard} alt="" /></div>
+          <div className="col-2"><img width={100} src={danamon} alt="" /></div>
+          <div className="col-2"><img width={100} src={visa} alt="" /></div>
+          <div className="col-2"><img width={100} src={mandiri} alt="" /></div>
+          <div className="col-2"><img width={100} src={kerdivo} alt="" /></div>
+          <div className="col-2"><img width={100} src={uob} alt="" /></div>
+          <div className="col-2"><img width={100} src={gopay} alt="" /></div>
+          <div className="col-2"><img width={100} src={chartered} alt="" /></div>
+        </div>
+
         <div className="row footer layout7">
           <div className="col-lg-4">
             <h5 className="ulhead fw-bold lh-lg"><img src={footerlogo} width={150} alt="" /></h5>
@@ -60,7 +84,7 @@ export default function Footer() {
           <div className="col-md-2 footerlinks fw-normal lh-lg">
             <h5 className="ulhead fw-bold lh-lg">Campaign</h5>
             <ul>
-            <li><a href="#">Mangenal Arti Cukup</a></li>
+              <li><a href="#">Mangenal Arti Cukup</a></li>
               <li><a href="#">Tell Your Difference</a></li>
               <li><a href="#">Waykambas</a></li>
               <li><a href="#">Rebrand</a></li>
