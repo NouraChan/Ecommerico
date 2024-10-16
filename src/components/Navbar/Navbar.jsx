@@ -3,8 +3,11 @@ import './Navbar.css';
 import axios from "axios";
 import { Link } from "react-router-dom";
 import applogo from '../../img/923d23ccee9da5bc510b8d159f185505.png';
+import searchico from '../../img/search.png';
+import cartico from '../../img/cart.png';
+import userico from '../../img/user.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch , faUser , faBagShopping, faShoppingCart, faShoppingBag} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -65,15 +68,15 @@ export default function Navbar() {
           
               <li className="nav-item"> <a
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
-                href="#"><FontAwesomeIcon icon={faSearch} className="text-dark"/></a>
+                href="#"><img src={searchico} alt="" width={25} /></a>
               </li>
               <li className="nav-item text-nowrap"> <a
                 className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize"
-                href="#"><FontAwesomeIcon icon={faUser} className="text-dark"/> <span>login </span></a>
+                href="#"><img src={userico} alt="" width={25}/> <span>login </span></a>
               </li>
               <li className="nav-item"> <Link
-                className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize cartbtn"
-                to="checkout"><FontAwesomeIcon icon={faShoppingBag} className="text-dark"/></Link> </li>
+                className="nav-link text-dark fw-bold lh-sm fs-xs me-3 text-capitalize cartbtn p-2"
+                to="/checkout"><img src={cartico} alt="" width={25} /></Link> </li>
             </ul>
           </div>
         </div>

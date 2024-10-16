@@ -59,7 +59,7 @@ export default function Payment() {
                     <h2 className="mb-4">Billing Address</h2>
                     <div className="form-group">
                         <label className="text-capitalize" htmlFor="fullname">FullName</label>
-                        <input type="text" name="fullname" placeholder="" className="form-control mb-3 border-0 form-texty" id="fullname"></input>
+                        <input type="text" name="fullname" disabled placeholder="" className="form-control mb-3 border-0 form-texty" id="fullname"></input>
                     </div>
                     <div className="form-group">
                         <label className="text-capitalize" htmlFor="email">Email Address</label>

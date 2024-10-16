@@ -135,7 +135,7 @@ export default function Checkout() {
             } */}
             <div className="d-flex justify-content-end mx-4 mb-4 gap-3">
                 <Link to="../" className="colthemeoutline text-center text-nowrap w-25 p-2">Continue Shopping</Link>
-                <Link to='payment' className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0" onClick={proceedOrder} >Place My Order</Link>
+                <Link to='/payment' className="text-white text-center text-nowrap w-25 coltheme1 p-2 border-0" onClick={proceedOrder} >Place My Order</Link>
             </div>
         </form>
     </div>
