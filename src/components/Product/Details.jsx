@@ -18,7 +18,6 @@ export default function Details() {
     async function getProductData() {
         let productdata = await axios.get(`https://api.escuelajs.co/api/v1/products/${params.productId}`);
         setProduct(productdata.data);
-// console.log(productdata);
 
     };
 
@@ -31,7 +30,7 @@ export default function Details() {
 
     return <>
         <div className="container">
-            <View product={product}/>
+            <View product={product} data={product}/>
             <Desc product={product}/>
             <Related />
         </div>
